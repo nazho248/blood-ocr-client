@@ -8,7 +8,7 @@ export default defineConfig({
 		tailwindcss(),
 		preact({
 			prerender: {
-				enabled: true,
+				enabled: false,
 				renderTarget: '#app',
 			},
 		}),
